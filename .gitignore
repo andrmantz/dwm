@@ -1,0 +1,6 @@
+# This is produced on the first make
+config.h
+
+# Executables/machine code files
+*.o
+dwm

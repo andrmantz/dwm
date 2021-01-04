@@ -13,10 +13,10 @@ static const char dmenufont[]       = "Source Code Pro:size=10";
 static const unsigned int baralpha = 0xff;
 static const unsigned int borderalpha = OPAQUE;
 static const char col_fg[]          = "#ffffff";
-static const char col_fg2[]          = "#000000";
-static const char col_bg[]         = "#504945";
+static const char col_fg2[]         = "#000000";
+static const char col_bg[]          = "#504945";
 static const char *colors[][3]      = {
-	//                   letters          Background  	   Border
+	/*                   letters          Background  	   Border         */
 	[SchemeNorm]     = { col_fg,            NULL,           NULL },
 	[SchemeSel]      = { col_fg,            NULL,           NULL },
 	[SchemeStatus]   = { col_fg, 		    NULL ,  	    NULL }, // Statusbar right {text,background,not used but cannot be empty}

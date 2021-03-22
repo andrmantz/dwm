@@ -73,7 +73,6 @@ typedef union {
   int i;
   unsigned int ui;
   float f;
-  //  char c[256];
   const void *v;
 } Arg;
 
@@ -149,8 +148,6 @@ typedef struct {
   char name[256];
   char app_name[256];
 } Match;
-
-
 
 /* function declarations */
 static void applyrules(Client *c);

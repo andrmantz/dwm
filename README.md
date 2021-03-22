@@ -13,7 +13,7 @@ My build of Suckless dynamic window manager
 
 ## Layouts
 ----------------
-* **Tile**
+* **Tiled**
 * **Float**
 * **Monocle**
 * **GaplessGrid**
